@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-Commerce Product Page</title>
+  </head>
+  <body>
+    <header>
+      <a href="/">E-Commerce App</a>
+      <div id="cart-container">
+        <button id="cart-toggle">Cart (<span id="cart-count">0</span>)</button>
+        <div id="shopping-cart">
+          <h2>Shopping Cart</h2>
+          <div id="cart-items"></div>
+          <div id="cart-summary">
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="product-grid">Loading products...</section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
